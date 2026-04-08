@@ -1,0 +1,80 @@
+* { box-sizing: border-box; font-family: Arial; }
+
+.login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#1e3a5f,#2980b9);
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-box input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.sidebar {
+  width: 200px;
+  background: #1e3a5f;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  height: 100vh;
+}
+
+.container {
+  margin-left: 220px;
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 8px;
+  margin: 5px;
+  background: #2980b9;
+  color: white;
+  border: none;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.modal-box {
+  background: white;
+  padding: 20px;
+  margin: 100px auto;
+  width: 300px;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.pending { background: orange; }
+.approved { background: green; }
+.rejected { background: red; }
